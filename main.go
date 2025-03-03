@@ -6,8 +6,6 @@ func binarySearch(nums []int, target int) int {
 	var low int = 0
 	var high int = len(nums) - 1
 
-	midtmp := (high - low) / 2
-	fmt.Println(midtmp)
 	for low <= high {
 		mid := low + (high-low)/2
 

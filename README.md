@@ -40,4 +40,10 @@ if nums[mid] == target {
 ```
 When the value of low is greater than the value of high, this indicates that the target is not present in the array. This is because we’ve checked all possible positions where target might exist. So, -1 is returned.
 
+# 3 Summary
+1. Find the middle element in the sorted array
+2. Compare the element with a target element. if matches return index of the element
+3. If the target element is smaller than the mid element, perform search on the left half of the array. Otherwise, perform search on the right half of the array.
+4. Repeat the process until the target value is found. Otherwise return -1 if not found.
+
 Good Luck!
