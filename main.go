@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func binarySarch(nums []int, target int) int {
+func binarySearch(nums []int, target int) int {
 	var low int = 0
 	var high int = len(nums) - 1
 
@@ -25,7 +25,7 @@ func binarySarch(nums []int, target int) int {
 func main() {
 	binary := []int{1, 2, 3, 4, 5}
 	target := 5
-	search := binarySarch(binary, target)
+	search := binarySearch(binary, target)
 
 	fmt.Println(search)
 }
